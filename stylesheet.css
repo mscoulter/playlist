@@ -1,0 +1,123 @@
+*{ margin:0; padding:0; }
+
+.container{
+  width:100vw;
+  height:100vh;
+  background-color: #EEEEEE
+  padding-bottom: 0;
+  margin: 0;
+
+}
+.header {
+  width: 100%;
+  height: 5%;
+  background-color: #9B9B8C;
+  margin: 0;
+  padding: 0;
+}
+.body {
+  width: 50%;
+  height: 90%;
+  display:inline-block;
+  text-align: center;
+  margin: 0;
+  vertical-align: top;
+  padding-bottom: 0;
+}
+.spacer {
+  width: 100%;
+  height:30%;
+}
+@font-face {
+    font-family: AvenirNextLTPro;
+    src: url(/Users/michaelcoulter/workspace/playlist/fonts/AvenirNextLTPro-Regular.otf);
+    font-weight: bold;
+}
+.text {
+  font-family: AvenirNextLTPro;
+  color: #4C0066;
+  font-size: 300%;
+  margin: 0;
+}
+#choose {
+  background-color: #353526;
+  font-family: AvenirNextLTPro;
+  font-size: 100%;
+  font-weight: lighter;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height:35px;
+  width: 40%;
+  cursor: pointer;
+}
+.sidebar{
+  width:50%;
+  height:90%;
+  display: inline-block;
+  margin: 0;
+  padding-bottom: 0;
+  z-index: 0;
+  position: relative;
+}
+
+.tracks{
+  width: 100%;
+  height: 100%;
+  opacity: 0.19;
+  margin: 0;
+  padding-bottom: 0;
+  position: relative;
+}
+#cov1{
+  width: 36%;
+  height: 30%;
+  z-index: 1;
+  background-color: white;
+  position: absolute;
+  top: 2%;
+  left: 32%;
+}
+#cover1{
+  width:100%;
+  height: 100%;
+}
+#cov2{
+  width: 36%;
+  height: 30%;
+  z-index: 1;
+  background-color: white;
+  position: absolute;
+  top: 34%;
+  left: 32%;
+}
+#cover2{
+  width:100%;
+  height: 100%;
+}
+#cov3{
+  width: 36%;
+  height: 30%;
+  z-index: 1;
+  background-color: white;
+  position: absolute;
+  top: 66%;
+  left: 32%;
+}
+#cover3{
+  width:100%;
+  height: 100%;
+}
+
+.footer{
+  width: 100%;
+  height: 5%;
+  background-color: #686859;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+.rights{
+  padding: 7px 0px 0px 5px;
+  font-family: AvenirNextLTPro;
+}
