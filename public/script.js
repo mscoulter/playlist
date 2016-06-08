@@ -19,12 +19,12 @@ $(document).ready(function(){
     }
     shuffle(covArt);
     console.log(covArt);
-    $("#cov1").append("<img src= '/Users/michaelcoulter/workspace/playlist/images/"+covArt[0]+"' id= 'cover1'></img>")
-    $("#cov2").append("<img src= '/Users/michaelcoulter/workspace/playlist/images/"+covArt[1]+"' id= 'cover2'></img>")
-    $("#cov3").append("<img src= '/Users/michaelcoulter/workspace/playlist/images/"+covArt[2]+"' id= 'cover3'></img>")
+    $("#cov1").append("<img src= 'images/"+covArt[0]+"' id= 'cover1'></img>")
+    $("#cov2").append("<img src= 'images/"+covArt[1]+"' id= 'cover2'></img>")
+    $("#cov3").append("<img src= 'images/"+covArt[2]+"' id= 'cover3'></img>")
 
     $("#choose").click(function() {
-      window.location = "/Users/michaelcoulter/workspace/playlist/index2.html"
+      window.location = "index2.html"
     })
 
 })

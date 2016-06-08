@@ -30,7 +30,7 @@
 }
 @font-face {
     font-family: AvenirNextLTPro;
-    src: url(/Users/michaelcoulter/workspace/playlist/fonts/AvenirNextLTPro-Regular.otf);
+    src: url(fonts/AvenirNextLTPro-Regular.otf);
     font-weight: bold;
 }
 .text {
